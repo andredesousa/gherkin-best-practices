@@ -1,32 +1,37 @@
 # Gherkin Best Practices
 
+[Gherkin](https://cucumber.io/docs/gherkin/reference/) is the domain-specific language for writing behaviour scenarios.
+
+This is a guideline of best practices about Gherkin and BDD that you can apply to your projects.
+These tips are based on Cucumber documentation, books, articles and professional experience.
+
 ## Table of Contents
 
-1. Write declarative features instead of imperative features
-2. Use meaningful feature and scenario names
-3. Add good scenario descriptions
-4. Write the scenario before writing the code
-5. Do not write scenarios in isolation
-6. Avoid high-level and vague scenarios
-7. Make scenarios independent and deterministic
-8. Remove unneeded scenarios
-9. Structure large scenarios with comments
-10. Use backgrounds to reduce the number of steps
-11. Avoid overuse of scenario outline
-12. Limit the number of scenarios per feature
-13. Limit the number of steps per scenario
-14. Avoid using conjunctive steps
-15. Use And and But instead of repeating the same keyword
-16. No clear separation between given/when/then
-17. Refactor and reuse step definitions
-18. Avoid testing several rules at the same time
-19. Define the actor that will use the system
-20. Use your native language to write scenarios
-21. Use tags to organize your features and scenarios
-22. Use lint rules to check the given/when/then syntax
-23. Avoid testing through the UI
-24. Features are not user stories
-25. Organize the test code in layers
+1. [Write declarative features instead of imperative features](#write-declarative-features-instead-of-imperative-features)
+2. [Use meaningful feature and scenario names](#use-meaningful-feature-and-scenario-names)
+3. [Add good scenario descriptions](#add-good-scenario-descriptions)
+4. [Write the scenario before writing the code](#write-the-scenario-before-writing-the-code)
+5. [Do not write scenarios in isolation](#do-not-write-scenarios-in-isolation)
+6. [Avoid high-level and vague scenarios](#avoid-high-level-and-vague-scenarios)
+7. [Make scenarios independent and deterministic](#make-scenarios-independent-and-deterministic)
+8. [Remove unneeded scenarios](#remove-unneeded-scenarios)
+9. [Structure large scenarios with comments](#structure-large-scenarios-with-comments)
+10. [Use backgrounds to reduce the number of steps](#use-backgrounds-to-reduce-the-number-of-steps)
+11. [Avoid overuse of scenario outline](#avoid-overuse-of-scenario-outline)
+12. [Limit the number of scenarios per feature](#limit-the-number-of-scenarios-per-feature)
+13. [Limit the number of steps per scenario](#limit-the-number-of-steps-per-scenario)
+14. [Avoid using conjunctive steps](#avoid-using-conjunctive-steps)
+15. [Use And and But instead of repeating the same keyword](#use-and-and-but-instead-of-repeating-the-same-keyword)
+16. [No clear separation between given/when/then](#no-clear-separation-between-givenwhenthen)
+17. [Refactor and reuse step definitions](#refactor-and-reuse-step-definitions)
+18. [Avoid testing several rules at the same time](#avoid-testing-several-rules-at-the-same-time)
+19. [Define the actor that will use the system](#define-the-actor-that-will-use-the-system)
+20. [Use your native language to write scenarios](#use-your-native-language-to-write-scenarios)
+21. [Use tags to organize your features and scenarios](#use-tags-to-organize-your-features-and-scenarios)
+22. [Use lint rules to check the given/when/then syntax](#use-lint-rules-to-check-the-givenwhenthen-syntax)
+23. [Avoid testing through the UI](#avoid-testing-through-the-ui)
+24. [Features are not user stories](#features-are-not-user-stories)
+25. [Organize the test code in layers](#organize-the-test-code-in-layers)
 
 ## Write declarative features instead of imperative features
 
@@ -284,21 +289,21 @@ The next step is to write these test cases or steps using page object models or 
 
 ## Bibliography
 
-- 10 easy ways to fail at BDD
-- 15 Expert Tips for Using Cucumber
-- 5 tips to automate your tests at scale
-- 9 tips for improving Cucumber test readability
-- A Guide to Cucumber Best Practices
-- BDD 101: The Gherkin Language
-- BDD Cucumber Features Best Practices
-- Best practices for scenario writing
-- Cucumber for BDD - Using Anti Patterns
-- Declarative vs Imperative Gherkin Scenarios for Cucumber
-- Gherkin Language - Use Your Language to Describe Test Cases
-- How to Measure the ROI of BDD and TDD
-- Introducing BDD
-- QA : Gherkins Standards and Best Practices
-- The 3 most common mistakes writing Gherkin features
-- The Best Anti-Patterns for BDD
-- Top 5 Cucumber Best Practices For Selenium Automation
-- Writing better Gherkin
+- [10 easy ways to fail at BDD](https://cucumber.io/blog/bdd/10-easy-ways-to-fail-at-bdd/)
+- [15 Expert Tips for Using Cucumber](https://blog.engineyard.com/15-expert-tips-for-using-cucumber)
+- [5 tips to automate your tests at scale](https://cucumber.io/blog/test-automation/building-test-automation-that-scales/)
+- [9 tips for improving Cucumber test readability](https://www.foreach.be/blog/9-tips-improving-cucumber-test-readability)
+- [A Guide to Cucumber Best Practices](https://dzone.com/articles/a-guide-to-good-cucumber-practices)
+- [BDD 101: The Gherkin Language](https://automationpanda.com/2017/01/26/bdd-101-the-gherkin-language/)
+- [BDD Cucumber Features Best Practices](https://www.linkedin.com/pulse/bdd-cucumber-features-best-practices-liraz-shay/)
+- [Best practices for scenario writing](https://support.smartbear.com/cucumberstudio/docs/tests/best-practices.html)
+- [Cucumber for BDD - Using Anti Patterns](https://cucumber.io/blog/bdd/cucumber-anti-patterns-part-two/)
+- [Declarative vs Imperative Gherkin Scenarios for Cucumber](https://itsadeliverything.com/declarative-vs-imperative-gherkin-scenarios-for-cucumber)
+- [Gherkin Language - Use Your Language to Describe Test Cases](https://specflow.org/learn/gherkin/)
+- [How to Measure the ROI of BDD and TDD](https://cucumber.io/blog/bdd/how-to-measure-the-roi-of-bdd-and-tdd/)
+- [Introducing BDD](https://dannorth.net/introducing-bdd/)
+- [QA: Gherkins Standards and Best Practices](https://github.com/department-of-veterans-affairs/ascent-sample/wiki/QA-:-Gherkins-Standards-and-Best-Practices)
+- [The 3 most common mistakes writing Gherkin features](https://www.spritecloud.com/the-3-most-common-mistakes-writing-gherkin-features/)
+- [The Best Anti-Patterns for BDD](https://cucumber.io/blog/bdd/cucumber-antipatterns-part-one/)
+- [Top 5 Cucumber Best Practices For Selenium Automation](https://www.lambdatest.com/blog/cucumber-best-practices/)
+- [Writing better Gherkin](https://cucumber.io/docs/bdd/better-gherkin/)
